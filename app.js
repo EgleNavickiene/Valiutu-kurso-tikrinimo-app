@@ -64,7 +64,7 @@ const server=http.createServer((req,res)=>{
 });
 
 //Laukiame užklausų
-server.listen(3008, 'localhost');
+server.listen(process.env.PORT);
 
 
 
